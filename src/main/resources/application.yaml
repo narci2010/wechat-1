@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: local
+  http:
+    multipart:
+      max-file-size: 128MB
+      max-request-size: 128MB
+build:
+  version: v@project.version@
+  timestamp: @timestamp@
+
+logback:
+  access:
+    enabled: false

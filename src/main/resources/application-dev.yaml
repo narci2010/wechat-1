@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  context-path: /assist
+
+logging:
+  config: classpath:logger/logback-dev.xml
+
+app:
+  oauth2:
+    appId: wxcb82a5d7e07faa0c
+    secret: a3b76772adad9cbf021d80e20e819913
+    callback: http://wechat.wallbase.tv/oauth2/wechat/callback
+  templateMessage:
+    task-notice: sRMk7VDuIJujQLsJVSB4v3nU4bxxeVE6O8jMJulLmS0
